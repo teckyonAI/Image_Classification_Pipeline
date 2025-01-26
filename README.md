@@ -60,22 +60,22 @@ dataset/
 
 ## Example
 For a binary classification task (e.g., cats vs. dogs), the dataset structure may look like this:
-   dataset/
-   ├── train/
-   │   ├── cats/
-   │   │   ├── cat_1.jpg
-   │   │   ├── cat_2.jpg
-   │   ├── dogs/
-   │       ├── dog_1.jpg
-   │       ├── dog_2.jpg
-   ├── val/
-   │   ├── cats/
-   │   ├── dogs/
-   ├── test/
-       ├── cats/
-       ├── dogs/
-
-
+```
+dataset/
+├── train/
+│   ├── cats/
+│   │   ├── cat_1.jpg
+│   │   ├── cat_2.jpg
+│   ├── dogs/
+│       ├── dog_1.jpg
+│       ├── dog_2.jpg
+├── val/
+│   ├── cats/
+│   ├── dogs/
+├── test/
+    ├── cats/
+    ├── dogs/
+```
 
 ## Dataset Preprocessing
 - **Training Set**: Used for model training and optimization.
