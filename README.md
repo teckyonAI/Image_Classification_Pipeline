@@ -37,20 +37,21 @@ This project leverages the following technologies:
 ## Dataset
 
 The pipeline is designed to work with custom image datasets organized in the following structure:
-   dataset/
-   ├── train/
-   │   ├── class_1/
-   │   │   ├── image_1.jpg
-   │   │   ├── image_2.jpg
-   │   ├── class_2/
-   │       ├── image_3.jpg
-   │       ├── image_4.jpg
-   ├── val/
-   │   ├── class_1/
-   │   ├── class_2/
-   ├── test/
-       ├── class_1/
-       ├── class_2/
+```bash
+dataset/
+├── train/
+│   ├── class_1/
+│   │   ├── image_1.jpg
+│   │   ├── image_2.jpg
+│   ├── class_2/
+│       ├── image_3.jpg
+│       ├── image_4.jpg
+├── val/
+│   ├── class_1/
+│   ├── class_2/
+├── test/
+    ├── class_1/
+    ├── class_2/
 
 ## Key Fields
 - **Class Labels**: Each folder represents a distinct class for classification.
