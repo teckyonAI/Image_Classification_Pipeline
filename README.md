@@ -37,7 +37,7 @@ This project leverages the following technologies:
 ## Dataset
 
 The pipeline is designed to work with custom image datasets organized in the following structure:
-```bash
+```
 dataset/
 ├── train/
 │   ├── class_1/
@@ -52,6 +52,7 @@ dataset/
 ├── test/
     ├── class_1/
     ├── class_2/
+```
 
 ## Key Fields
 - **Class Labels**: Each folder represents a distinct class for classification.
